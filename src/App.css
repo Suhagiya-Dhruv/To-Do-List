@@ -1,3 +1,88 @@
-.App {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.main_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 600px;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    color: white;
+    font-weight: 900;
     text-align: center;
+    background-color: #9b59b6;
+    width: 100%;
+}
+
+.btn {
+    background-color: #9b59b6;
+    margin: 0px 5px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: 0px 0px 3px black;
+}
+
+.btn:hover {
+    background-color: rgb(66, 214, 66);
+}
+
+.input {
+    margin: 0px 5px;
+    text-align: center;
+    font-size: 24px;
+    width: 250px;
+    border: none;
+    border-bottom: 4px solid #9b59b6;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+    margin-top: 16px;
+}
+
+ol li {
+    margin: 10px 8px;
+    font-size: 20px;
+    color: #9b59b6;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+.list {
+    height: 450px;
+    overflow-y: auto;
 }
